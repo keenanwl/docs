@@ -1,33 +1,28 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: 'API endpoints overview'
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+We created a limited number of customer facing API endpoints to help automate core processes.
 
-## Welcome
-
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+## Missing something?
+Get in touch and we will try our best to add the functionality to the API.
 
 <Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
+  title="DELIVRIO Endpoints"
+  icon="person-dolly"
+  href="https://raw.githubusercontent.com/keenanwl/docs/main/api-reference/openapi.json"
 >
   View the OpenAPI specification file
 </Card>
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+All API endpoints are authenticated using with a API key placed in the header.
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
 ```
+X-DELIVRIO-key: <your secret api key>
+```
+
+## Authorization
+API keys are personal, meaning they have the same authorization privileges as the user who created them.
