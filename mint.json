@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "DELIVRIO API Docs",
   "logo": {
-    "dark": "/logo/logo.png",
-    "light": "/logo/logo.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#c0001a",
     "light": "#ffdad6",
